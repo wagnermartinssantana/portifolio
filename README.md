@@ -30,6 +30,7 @@ Para o desenvolvimento da aplicação, foram utilizadas as tecnologias e bibliot
   git clone https://github.com/wagnermartinssantana/portifolio.git;
 
 2. Instale as dependências:
+   
   npm install;
 
 Execução
