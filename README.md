@@ -1,16 +1,48 @@
-# React + Vite
+# Portfólio Profissional - Wagner Martins Santana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido por **Wagner Martins Santana Vieira** como parte do seu portfólio profissional. Trata-se de uma aplicação web responsiva construída com **React** e **Tailwind CSS**, com foco em design moderno, modularidade e boas práticas de desenvolvimento front-end.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para o desenvolvimento da aplicação, foram utilizadas as tecnologias e bibliotecas abaixo:
 
-## React Compiler
+| Nome           | Versão        |
+|----------------|---------------|
+| React          | 18+           |
+| Vite           | 4+            |
+| Tailwind CSS   | 3.3.3         |
+| JavaScript     | ES6+          |
+| Node.js        | 18+           |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Pré-requisitos
 
-## Expanding the ESLint configuration
+- Instalar o _**Node.js**_ (versão 18 ou superior):  
+  [https://nodejs.org](https://nodejs.org)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Instalar o _**npm**_ (gerenciador de pacotes do Node):  
+  Já vem incluso com o Node.js
+
+## Instalação
+
+1. Clone o repositório:
+
+  bash
+  git clone https://github.com/wagnermartinssantana/portifolio.git;
+
+2. Instale as dependências:
+  npm install;
+
+Execução
+Para rodar o projeto localmente:
+npm run dev;
+A aplicação estará disponível em: http://localhost:5173
+
+## Estrutura do Projeto
+- src/components: Componentes reutilizáveis como Header, Projetos, Contato, etc.
+- src/App.jsx: Componente principal que organiza as seções do portfólio..
+- src/index.css: Estilização base com Tailwind.
+
+## Contato
+Surgiu alguma dúvida ou quer dar um sugestão segue meu contato:
+- Email: wagnermartinssantana@gmail.com
+- Linkedin: (https://www.linkedin.com/in/wagner-martins-santana/)
